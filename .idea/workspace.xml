@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="706a8ab1-a960-4acd-90b7-f4cc404a84bd" name="Default" comment="Rejected commit: Default">
+    <list default="true" id="706a8ab1-a960-4acd-90b7-f4cc404a84bd" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Litle_Game.iml" afterPath="$PROJECT_DIR$/.idea/Litle_Game.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -211,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480262652921</updated>
-      <workItem from="1480262663644" duration="4988000" />
+      <workItem from="1480262663644" duration="5036000" />
     </task>
     <task id="LOCAL-00001" summary="Rejected commit: Default">
       <created>1480266679735</created>
@@ -241,11 +240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480267354175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1 Commit">
+      <created>1480267809232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480267809233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4988000" />
+    <option name="totallyTimeSpent" value="5036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1442" height="853" extended-state="6" />
@@ -296,7 +302,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rejected commit: Default" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rejected commit: Default" />
+    <MESSAGE value="1 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
