@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Paper-Rock-Scissors with SPOCK AND LIZARD</title>
+        <meta name="description" content="Paper-Rock-Scissors with SPOCK AND LIZARD | @vdsancheza">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/game.css">
+
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+
+        <div class="container-fluid">
+            <h1>Paper-Rock-Scissors with SPOCK AND LIZARD</h1>
+            <h3>Rules:</h3>
+            <ul class="list-group row">
+
+                <li class="boxie list-group-item col-md-2">
+                    [Rock <i class="fa fa-hand-rock-o" aria-hidden="true"></i>] <strong>Wins</strong> [<i class="fa fa-hand-scissors-o" aria-hidden="true"></i> and <i class="fa fa-hand-lizard-o" aria-hidden="true"></i>]
+                </li>
+                <li class="boxie list-group-item col-md-2">
+                    [Paper <i class="fa fa-hand-paper-o" aria-hidden="true"></i>] <strong>Wins</strong> [<i class="fa fa-hand-rock-o" aria-hidden="true"></i> and <i class="fa fa-hand-spock-o" aria-hidden="true"></i>]
+                </li>
+                <li class="boxie list-group-item col-md-2">
+                    [Scissors <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>] <strong>Wins</strong> [<i class="fa fa-hand-paper-o" aria-hidden="true"></i> and <i class="fa fa-hand-lizard-o" aria-hidden="true"></i>]
+                </li>
+                <li class="boxie list-group-item col-md-2">
+                    [Lizard <i class="fa fa-hand-lizard-o" aria-hidden="true"></i>] <strong>Wins</strong> [<i class="fa fa-hand-spock-o" aria-hidden="true"></i>and <i class="fa fa-hand-paper-o" aria-hidden="true"></i>]
+                </li>
+                <li class="boxie list-group-item col-md-2">
+                    [Spock <i class="fa fa-hand-spock-o" aria-hidden="true"></i>] <strong>Wins</strong> [<i class="fa fa-hand-rock-o" aria-hidden="true"></i> and <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>]
+                </li>
+            </ul>
+        </div>
+        <div class=container-fluid">
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-4">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <span>Your Score:</span>
+                            <p id="YScore">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-md-4">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <div class="" id="result">:)</div>
+                            <div class="" id="resultComputer"><.<</div>
+                            <div class="black-background" id="info">INFO</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="container-fluid col-md-8 btn-group">
+                            <button type="button" class="btn btn-default button " id="rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default button " id="paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default button " id="scissors"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default button " id="lizard"><i class="fa fa-hand-lizard-o" aria-hidden="true"></i></button>
+                            <button type="button" class="btn btn-default button " id="spock"><i class="fa fa-hand-spock-o" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+
+                </div>
+                <div class="container-fluid col-md-4">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <span>COMPUTER Score:</span>
+                            <p id="CScore">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
