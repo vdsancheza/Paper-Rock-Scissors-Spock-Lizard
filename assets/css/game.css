@@ -1,0 +1,65 @@
+#result,
+#resultComputer{
+    border: 8px solid grey!important;
+}
+
+.content{
+    /*float: left;*/
+    text-align: center;
+    width: 200px;
+}
+.button{
+    background-color: #eceaea;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 #494e49, 0 10px 20px rgba(0, 0, 0, .4);
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    padding: 3px 3px 3px 3px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+#result,
+#resultComputer{
+    background-color: #eceaea;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 #494e49, 0 10px 20px rgba(0, 0, 0, .4);
+    display: inline-block;
+    font-size: 140px;
+    line-height: 1;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+.boxie{
+    background-color: #eceaea;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 #494e49, 0 10px 20px rgba(0, 0, 0, .4);
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+.button:active{
+    box-shadow: 5px 5px 0 #494e49, 0 5px 10px rgba(0, 0, 0, .4);
+    position: relative;
+    top: 5px;
+}
+.black-background{
+    background: black;
+}
+#info{
+    color: yellow;
+}
+#CScore{
+    color: darkred;
+    font-family: "Arial Black";
+}
+#YScore{
+    color: deepskyblue;
+    font-family: "Consolas","Arial Black";
+}
